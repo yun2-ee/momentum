@@ -7,4 +7,3 @@ const bImg = document.createElement("img");
 bImg.src = `img/${chosenImage}`;
 
 document.body.appendChild(bImg);
-console.log(bImg);
