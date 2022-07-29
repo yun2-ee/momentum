@@ -8,29 +8,31 @@
     <title>Momentum</title>
   </head>
   <body>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <h2 id="clock"></h2>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <button id="logout" class="hidden">로그아웃</button>
     <form id="login-form" class="hidden">
       <input
         required
         maxlength="15"
         type="text"
-        placeholder="What is your name?"
+        placeholder="이름이 뭐에요??"
       />
-      <input type="submit" value="Login In" />
+      <input type="submit" value="로그인" />
     </form>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a to do and Press enter" required />
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="todoTitle" class="hidden">TO DO LIST</h2>
+    <form id="todo-form" class="hidden">
+      <input type="text" placeholder="Write a to do" required />
     </form>
     <ul id="todo-list"></ul>
-    <h1 id="greeting" class="hidden"></h1>
-    <h2 id="clock"></h2>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
 
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>

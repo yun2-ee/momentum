@@ -1,3 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Do+Hyeon&family=Jua&family=Noto+Sans+KR&display=swap");
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hidden {
   display: none;
+}
+#quote {
+  text-align: center;
+  font-family: "Jua", sans-serif;
+}
+#quote span:first-child {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+#clock {
+  text-align: center;
+  font-size: 80px;
+  color: #ffffff;
+}
+#logout {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-weight: bold;
+  font-family: "Do Hyeon";
+  cursor: pointer;
+}
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 70px;  font-family: "Do Hyeon";
+}
+#login-form {
+  text-align: center;
+  font-family: "Do Hyeon";
+}
+#login-form input:first-child {
+  background: inherit;
+  border: none;
+  border-bottom: 3px solid #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Do Hyeon";
+}
+#login-form input:first-child:focus {
+  outline: none;
+}
+#login-form input:first-child::placeholder {
+  color: #ffffff;
+  font-family: "Do Hyeon";
+}
+#login-form input:last-child {
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-weight: bold;
+  font-family: "Do Hyeon";
+}
+
+#greeting {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Jua";
+}
+
+#todoTitle {
+  text-decoration: underline;
+  text-align: center;
+}
+#todo-form {
+  text-align: center;
+}
+#todo-form input:first-child {
+  background: inherit;
+  border: none;
+  border-bottom: 3px solid #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Do Hyeon";
+}
+#todo-form input:first-child:focus {
+  outline: none;
+}
+#todo-form input:first-child::placeholder {
+  color: #ffffff;
+  font-family: "Do Hyeon";
+}
+#todo-list {
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+#todo-list li {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 3px 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Do Hyeon";
+}
+#todo-list button {
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
