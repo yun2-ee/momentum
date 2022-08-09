@@ -40,5 +40,8 @@ if (savedUsername === null) {
 
 logout.addEventListener("click", () => {
   localStorage.removeItem(USERNAME_KEY);
+  localStorage.removeItem(TODO_KEY);
+  todoTitle.classList.add(HIDDEN_CLASSNAME);
+  todoForm.classList.add(HIDDEN_CLASSNAME);
   location.reload();
 });
